@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&family=Nunito:wght@300;400&display=swap');
+.main-crypto-cont{
+    font-family: 'Baloo Tamma 2', cursive;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    /* border: 2px solid red; */
+    align-items:center;
+    height:800px;
+    width:100%;
+
+}
+.centers{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    /* border: 2px solid red; */
+    align-items:center;
+}
+.main-crypto-cont2{
+    font-family: 'Baloo Tamma 2', cursive;
+    display:flex;
+    flex-wrap:wrap;
+    /* flex-direction: column; */
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin-top: 30px;
+    /* border: 2px solid rgb(169, 169, 169); */
+    width:90%;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 7px 0px #764abc40;
+    background-color: rgb(247, 247, 247);
+
+
+}
+.inputbox-cont{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    margin-top: 20px;
+
+}
+.Giveinput{
+    padding:10px;
+    border-radius: 20px;
+    width: 250px;
+    border: 2px solid #405cf5;
+    border-radius: 6px;
+    height: 44px;
+    padding: 0 25px;
+    font-family: 'Baloo Tamma 2', cursive;
+
+
+}
+.input-btn{
+    background-color: rgb(255, 71, 108);
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgb(50 50 93 / 10%) 0 0 0 1px inset, rgb(50 50 93 / 10%) 0 2px 5px 0, rgb(0 0 0 / 7%) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    font-size: 100%;
+    height: 44px;
+    line-height: 1.15;
+    margin-left: 20px ;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 10%;
+}
+.main-crypto-cont3{
+    font-family: 'Baloo Tamma 2', cursive;
+    display:flex;
+    /* flex-direction:inherit; */
+    justify-content:center;
+    border: 2px solid red;
+    align-items:center;
+    box-sizing: border-box;
+    width:100%;
+}
+.main-crypto-cont2 h1{
+    color: #405cf5;
+}
+.linex{
+    
+    /* height:2px; */
+    width:60%;
+    border: 1px solid #405cf5;
+    background-color:#405cf5;
+    border-radius: 50px;
+}
+.header-cont{
+    width:100%;
+    font-family: 'Baloo Tamma 2', cursive;
+
+    /* border: 2px solid red; */
+    height: 100px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}

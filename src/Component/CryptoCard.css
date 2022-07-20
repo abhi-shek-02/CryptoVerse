@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&family=Nunito:wght@300;400&display=swap');
+.main-card-cont{
+    /* border:2px solid red; */
+    /* background-color:rgb(255, 0, 0); */
+    font-family: 'Baloo Tamma 2', cursive;
+    margin: 8px;
+
+}
+.same5{
+    /* border: 2px solid rgb(0, 0, 0); */
+    box-shadow: 4px 4px 4px 4px #764abc40;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    /* height: 150px; */
+    height:270px;
+    margin: 10px;
+    width:300px;
+    border-radius: 10px;
+
+}
+.same5 h3{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    color:#405cf5;
+}
+.card-nav{
+    display:flex;
+    flex-direction: row;
+    /* justify-content:center; */
+    align-items:center;
+    /* border: 2px solid red; */
+    width: 100%;
+    height:30%;
+}
+.underline{
+    border: 1px solid #405cf5;
+    width: 30%;
+    background:#405cf5;
+    /* margin-bottom:30px; */
+
+}
+.card-nav2{
+    /* border: 2px solid red; */
+    display:flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:center;
+    margin-left: 0px;
+    height: 40px;
+}
+.card-nav2 h4{
+    display:flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:center;
+    margin-left: 20px;
+    font-size:22px;
+
+}
+.card-navimg{
+    /* border: 2px solid red; */
+    display:flex;
+    flex-direction: row;
+    justify-content:right;
+    align-items:center;
+    justify-content: flex-end;
+    margin-left: 10px;
+    height: 40px;
+    width:40px;
+}
+.last-cont{
+    /* border: 2px solid red; */
+    width:70%;
+    height:60%;
+    padding-left: 50px;
+    background:#405cf5;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.color{
+    color: #405cf5;
+}

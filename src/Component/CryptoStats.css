@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&family=Nunito:wght@300;400&display=swap');
+.stats-main-container{
+    font-family: 'Baloo Tamma 2', cursive;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    /* font-family: "Inter",sans-serif;
+    --font-family-sans-serif: "Inter",sans-serif; */
+    font-family: 'Baloo Tamma 2', cursive;
+    /* border: 2px solid rgb(0, 0, 0); */
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(247, 247, 247);
+    /* box-shadow: 0px 7px 7px 0px #764abc40; */
+    box-shadow: 0px 7px 7px 0px #764abc40;
+
+
+}
+.stats-main-2container{
+    /* border: 2px solid rgb(0, 0, 0); */
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    width:75%;
+    height:350px;
+    /* background: linear-gradient(90.32deg, #c7c7c7 0.28%, rgba(58, 48, 48, 0) 99.72%), hsl(0, 0%, 100%); */
+    /* box-shadow: 0px 7px 7px 0px #764abc40; */
+    /* border-radius: 10px; */
+}
+.stats-main-2container h2{
+    color: #121d35;
+    /* color: #ff006f; */
+}
+.stats-main-3container{
+    /* border: 2px solid rgb(0, 0, 0); */
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    width:95%;
+    height:50%;
+
+    /* height:300px; */
+    /* background: linear-gradient(90.32deg, #c7c7c7 0.28%, rgba(58, 48, 48, 0) 99.72%), hsl(0, 0%, 100%); */
+    /* box-shadow: 0px 7px 7px 0px #764abc40; */
+    /* border-radius: 10px; */
+
+}
+.same4{
+    /* border: 2px solid rgb(0, 0, 0); */
+    box-shadow: 4px 4px 4px 4px #764abc40;
+    background-color: rgb(255, 255, 255);
+
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    /* height: 150px; */
+    height:100%;
+    margin: 10px;
+    width:20%;
+    border-radius: 10px;
+
+}
+.same4 h3{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    /* color:#405cf5; */
+    /* color:rgb(255, 71, 108); */
+}
+.linex{
+    
+    /* height:2px; */
+    width:60%;
+    border: 1px solid #405cf5;
+    background-color:#405cf5;
+    border-radius: 50px;
+}
+.linexy{
+    border-radius: 10px;
+    border: 1px solid #405cf5;
+    height:100px;
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-color:#405cf5;
+    margin-bottom: 30px;
+    color:white;
+}
