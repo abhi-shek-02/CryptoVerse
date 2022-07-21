@@ -7,8 +7,7 @@ import './CryptoCurrencies.css'
 const CryptoCurrencies = () => {
 
   const [val1, setVal1] = useState();
-  const [remarray, setremarray] = useState();
-  const [inputdata, setInputdata] = useState('')
+
 
   useEffect(() => {
     axios.request(options1).then(function (response) {
@@ -37,18 +36,21 @@ const CryptoCurrencies = () => {
       'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com'
     }
   };
-
-  // const [val1, setVal1] = useState()
-  // useEffect(() => {
-  //   setremarray([...val1])
-  // }, [])
+  const [remarray, setremarray] = useState();
+  const [remarrayx, setremarrayx] = useState();
+  const [inputdata, setInputdata] = useState('')
 
   const handler = () => {
+
+    setremarrayx([...val1])
     const remainingarray = val1.filter((currency) => {
       return currency.name == inputdata
     })
-    setremarray([...remainingarray])
-    return remainingarray;
+    setVal1([...remainingarray])
+    return remainingarray
+  }
+  const handlerReset = () => {
+    setVal1([...remarrayx])
   }
   return (
     <div className="CryptoCurrencies-main">
@@ -61,6 +63,7 @@ const CryptoCurrencies = () => {
       <div className='inputbox-cont'>
         <input type="text" placeholder="Search Coins.. " className='Giveinput' onChange={(e) => { setInputdata(e.target.value) }} />
         <button className='input-btn' onClick={handler}>Search</button>
+        <button className='input-btn' onClick={handlerReset}>Reset</button>
       </div>
 
       <div className="centers">

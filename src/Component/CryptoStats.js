@@ -13,8 +13,6 @@ const CryptoStats = () => {
             console.error(error);
         });
     }, []);
-
-    // console.log({val})
     const options = {
         method: 'GET',
         url: 'https://coinranking1.p.rapidapi.com/coins',
@@ -41,7 +39,6 @@ const CryptoStats = () => {
                         <div className="same4">
                             <h3>Total Crypto</h3>
                             <div className="linexy"><h4>{val?.total}</h4></div>
-
                         </div>
                         <div className="same4">
                             <h3>Total Exchanges</h3>
@@ -52,19 +49,11 @@ const CryptoStats = () => {
                         <div className="same4">
                             <h3>Total Market Cap</h3>
                             <div className="linexy"><h4>$ {val?.totalMarketCap}</h4></div>
-
                         </div>
                         <div className="same4">
                             <h3>Total 24h Volume</h3>
                             <div className="linexy"><h4>{val?.total24hVolume}</h4></div>
-
                         </div>
-                        {/* <div className="same4">
-                        <h3>Total Markets</h3>
-                        <div className="line"></div>
-                        <h4>{millify(val.totalMarkets)}</h4>
-                    </div> */}
-
                     </div>
                 </div>
             </div>
